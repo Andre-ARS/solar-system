@@ -6,11 +6,12 @@ import PlanetCard from './PlanetCard';
 class SolarSystem extends Component {
   render() {
     const planetList = planets
-      .map(({ name, image }) => (<PlanetCard
-        planetName={ name }
-        planetImage={ image }
-        key={ name }
-      />));
+      .map(({ name, image }) => (
+        <PlanetCard
+          planetName={ name }
+          planetImage={ image }
+          key={ name }
+        />));
 
     return (
       <div data-testid="solar-system">
