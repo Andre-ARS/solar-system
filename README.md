@@ -18,4 +18,11 @@ git clone git@github.com:Andre-ARS/solar-system.git
 ```bash
 npm install
 ``` 
+### Executando aplicação
+
+Para rodar o front-end:
+
+```
+npm start
+```
 Link do site com Deploy utilizando Vercel: [Solar System](https://solar-system-ars.vercel.app/)
